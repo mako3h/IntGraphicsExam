@@ -54,11 +54,11 @@ Colin was asked within the discord if this was fine and he believes it was fine 
 * Neutral LUT (This was given in a lecture. Acts as a base for making custom LUT's)<br>
 * Shadow Lines Texture (Given to me in a tutorial where we had to make lined shadows)<br>
 <br>
-THIS IS ALL THAT WAS ADDED PRE-EXAM. I DID NOT WORK ON ANYTHING FOR THE EXAM. THIS WAS SIMPLY TO BE ORGANIZED SO THAT ONCE THE EXAM BEGINS, I CAN FOCUS ON SOLELY APPLYING MY SKILLS.<br>
+I DID NOT WORK ON ANYTHING FOR THE EXAM. THIS WAS SIMPLY TO BE ORGANIZED SO THAT ONCE THE EXAM BEGINS, I CAN FOCUS ON SOLELY APPLYING MY SKILLS.<br>
 <br>
 <br>
 <br>
-<br>
+
 # Final Exam <br>
 
 **Part 1:**<br>
@@ -72,6 +72,9 @@ For normal mapping, the only thing that I had to apply it to was the brick wall 
 
 **Water:**<br>
 I began by created three new textures. I used this website named pixlr (https://pixlr.com/e/#editor), to draw out a new water texture. Then I made a mud texture on the same platform. I then used this website (https://cpetry.github.io/NormalMap-Online/) to then make a normal map of this new water texture I made. I used the water shader that was made within class, but I modified it so that the shader also holds the properties of the foam shader we made in class. Once I combined these two shaders, I found it provided the player with a more enhanced water matieral. Within the scene, I made it so that there were two different planes, each one holding the same water shader, but different materials. This is because for the original water material, I made it so that there was not really any up and down movement of the waves. This ensured that it look flatter and it then resembled the given gif much more. To have this mud effect, I decided to make this second plane using the water shader but adding the mud texture to it. I placed this plane slightly under the water wave and I increased the value of the up and down movement value of the mud wave. This ensured that the tiptop of the highest wave would peek right over top of the original water wave slightly and show this mud texture making it look like sometimes mud flows down the river. Then by changing the speed, I made it look more realistic. <br>
-<br>
-**Bloom:**
-This is the same bloom shader that was made within a lecture of ours. Same as the bloom c# script. Although they are pretty much the same, I editted the shader so that there is a blurSize variable where you can change it in the unity inspector and the pixels on screen will slowly be blurred. I attached this to the camera to create this effect of the bloom within the scene. After lots of time trying to code one, I was unsure and unable to create a script that would toggle on/off the bloom. Therefore it is currently always on. 
+
+**Bloom:**<br>
+This is the same bloom shader that was made within a lecture of ours. Same as the bloom c# script. Although they are pretty much the same, I editted the shader so that there is a blurSize variable where you can change it in the unity inspector and the pixels on screen will slowly be blurred. I attached this to the camera to create this effect of the bloom within the scene. After lots of time trying to code one, I was unsure and unable to create a script that would toggle on/off the bloom. Therefore it is currently always on. <br>
+
+**End:**<br>
+Everything I used within this exam is in a folder named exam and all organized within unity. There is a release named "Build" which holds the needed things to run the final build of the unity project. 
