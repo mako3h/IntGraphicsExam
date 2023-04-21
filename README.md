@@ -1,7 +1,7 @@
 # Intermediate Graphics Final Exam<br>
 <br>
 # Pre-Exam Incorporated<br>
-All of the things that I added before the exam began are in a folder named "ExamSetup".  It is very organized with three folder within that (Materials, Shaders and Assets). <br>
+All of the things that I added before the exam began are in a folder named "ExamSetup".  It is very organized with three folder within that (Materials, Shaders and Assets). I have a scene named "PreExam" that visually shows what I added. The actual exam pracical will be made within a scene named "Exam". <br>
 Colin was asked within the discord if this was fine and he believes it was fine as we were allowed to do it within the midterm. I am communicating each thing I added into the unity project below. <br>
 <br>
 **Shaders Implemented:**<br>
