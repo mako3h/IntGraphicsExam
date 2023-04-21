@@ -58,3 +58,15 @@ THIS IS ALL THAT WAS ADDED PRE-EXAM. I DID NOT WORK ON ANYTHING FOR THE EXAM. TH
 <br>
 
 # Final Exam <br>
+
+**Part 1:**<br>
+So first off, I am an odd numbered student so I created a scene for the purple/pinkish tunnel scene with the ninja turtle surfing. I began by adding planes and walls around the scene. Then I made materials with bland colours like pink, purple, etc, that I would then be able to just put on these walls, object, etc, that will not be needing a shader implemented to it. I created a player for the scene using cubes in the unity editor. I made a prefab of it in case you are in awe of how amazing my ninja turtle is haha. 
+
+**NormalMapping:**<br>
+For normal mapping, the only thing that I had to apply it to was the brick wall in the back of the scene. I added bump mapping to this to ensure the wall had this bumpy, brick wall feel to it as it should. I retrieved this brick wall asset online from this website (https://www.alldesigncreative.com/3d-textures/wall-texture-bricks/). I then used this website to make a normal map of it (https://cpetry.github.io/NormalMap-Online/). 
+
+**Water:**<br>
+I began by created three new textures. I used this website named pixlr (https://pixlr.com/e/#editor), to draw out a new water texture. Then I made a mud texture on the same platform. I then used this website (https://cpetry.github.io/NormalMap-Online/) to then make a normal map of this new water texture I made. I used the water shader that was made within class, but I modified it so that the shader also holds the properties of the foam shader we made in class. Once I combined these two shaders, I found it provided the player with a more enhanced water matieral. Within the scene, I made it so that there were two different planes, each one holding the same water shader, but different materials. This is because for the original water material, I made it so that there was not really any up and down movement of the waves. This ensured that it look flatter and it then resembled the given gif much more. To have this mud effect, I decided to make this second plane using the water shader but adding the mud texture to it. I placed this plane slightly under the water wave and I increased the value of the up and down movement value of the mud wave. This ensured that the tiptop of the highest wave would peek right over top of the original water wave slightly and show this mud texture making it look like sometimes mud flows down the river. Then by changing the speed, I made it look more realistic. <br>
+<br>
+**Bloom:**
+This is the same bloom shader that was made within a lecture of ours. Same as the bloom c# script. Although they are pretty much the same, I editted the shader so that there is a blurSize variable where you can change it in the unity inspector and the pixels on screen will slowly be blurred. 
